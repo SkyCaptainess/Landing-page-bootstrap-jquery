@@ -1,0 +1,550 @@
+/* Default Styles */
+
+.navbar, #colorstrip, #colorstrip2 ,#colorstrip3, #colorstrip_banner, h1, h2, #subheading, #panelheading{
+
+    font-family: Verdana, Geneva, sans-serif;
+    margin:0 auto;
+
+}
+
+
+.navbar {min-height: 100px;}
+.navbar-brand {padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+.navbar-text{
+    font-size: 1.8em;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    .navbar-text{
+        font-size: 0.7em;
+    }
+    .navbar {min-height: 100px;}
+    .navbar-brand {padding: 0 15px; height: 80px; line-height: 80px;}
+
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid firebrick;
+    padding: 0;
+
+}
+
+p{
+    margin: 0 auto;
+    padding:0px;
+}
+
+html,body {
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+    .navbar, .navbar-header{
+        background:#fff;
+        padding-right: -192px;
+    }
+}
+.navbar, .navbar-header{
+    background:#fff;
+    padding-left:102px;
+}
+
+/*Header styles*/
+h1{
+    color:brown;
+    display:inline-block;
+}
+h2{
+    padding-left: 20.8em;
+    color: #5bc0de;
+    display: inline-block;
+    position:absolute;
+    top:5px;
+}
+h4{
+    color: darkmagenta;
+}
+h5{
+    display:inline-block;
+    font-family: Arial;
+    font-weight:bold;
+    font-size:0.85em;
+}
+
+
+/* Custom bullet style */
+.custom-bullet li {
+    display: block;
+    color: firebrick;
+    style:none;
+}
+.arrow{
+
+    width:30px;
+}
+
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    margin-top: 4px;
+    color: red;
+}
+
+.container .text-muted {
+    margin: 8px 0;
+    color:#fff;
+    font-size: 1.3em;
+}
+
+/*Heading style for phone*/
+
+
+#phone-number{
+    color:firebrick;
+    font-weight:bold;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+#subheading{
+    color:darkmagenta;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 0;
+
+}
+#subheading1{
+    color:blue;
+    font-weight: lighter;
+
+}
+#panel-heading{
+    padding: 0px;
+    color:brown;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+#smallerfont{
+    width:90%;
+    font-family: Arial;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:1.2em;
+    color:#fff;
+    padding-bottom:10px;
+
+}
+
+#offer-font{
+
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size:4.8em;
+    color:#fff;
+    margin:0 auto;
+    padding:0;
+
+}
+#smallestfont{
+    width:90%;
+    font-family: Arial;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:0.8em;
+    color:#fff;
+    padding-bottom:10px;
+}
+
+
+/*MOBILE VIEW */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+
+    #smallerfont{
+        width:90%;
+        font-family: Arial;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-size:1.0em;
+        color:#fff;
+        padding-bottom:10px;
+
+    }
+
+    #offer-font{
+        font-family: sans-serif;
+        font-weight:bold;
+        font-size:2.8em;
+        color:#fff;
+        margin:0 auto;
+        padding:0;
+
+    }
+    #smallestfont{
+        width:90%;
+        font-family: Arial;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-size:0.8em;
+        color:#fff;
+        padding-bottom:10px;
+
+
+    }
+
+}
+.information{
+
+    color:black;
+    font-family: "Arial";
+    text-transform: none;
+    margin-left: 0px;
+    width:100%;
+    font-weight: lighter;
+
+}
+
+
+#sub_para{
+    width:80%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:1.1em;
+    margin: 0 auto;
+    color:#fff;
+
+}
+
+
+/* Strip Styles */
+
+#colorstrip{
+    height: 0px;
+
+    border-bottom:solid 13px firebrick;
+}
+#colorstrip2, #colorstrip4{
+    height: 0px;
+    margin: 0 auto;
+    border-bottom:solid 12px rebeccapurple;
+}
+#colorstrip3{
+    width:50%;
+    border-bottom:solid 1px brown;
+    margin: 0 auto;
+}
+
+
+
+/*Panel style for offer */
+.panel-body{
+    margin: 0 auto; width: 99%;
+    background-color: firebrick;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+
+/* Image Styles */
+
+.img-banner {
+    float:right;
+    width: 50%;
+    height: 90%;
+    overflow:auto;
+
+}
+
+/* For Mobile Screens */
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio:0)
+{
+    .relative{
+        position:relative;
+        top:0px;
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+
+    .absolute{
+
+        max-height:400px; overflow-y: scroll;
+        z-index:100;
+        position:absolute;
+        top:12px;
+        float:left;
+        margin-left:150px;
+        color:white;
+        opacity:0.9;
+
+
+    }
+}
+/* Responsive for mozilla */
+
+@-moz-document url-prefix() {
+
+
+    .relative {
+        position: relative;
+        top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        float: right;
+        width: auto;
+        font-weight: 1.2em;
+        min-width: 1140px;
+
+    }
+
+    .absolute {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        color: white;
+        overflow: auto;
+        opacity: 0.9;
+        width: 70vh;
+        height: 90vh;
+        font-weight: 1.2em;
+
+    }
+
+}
+
+
+
+
+/* For laptop */
+
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 0)
+and (min-resolution: 192dpi) {
+    .relative{
+        position:relative;
+        top:0px;
+        margin-left:0px;
+        margin-right:0px;
+        float: right;
+        width: auto;
+        font-weight:1.2em;
+        min-width:1140px;
+
+    }
+
+    .absolute{
+        position:absolute;
+        top:30px;
+        left:0px;
+        color:white;
+        overflow:auto;
+        opacity:0.9;
+        width:70vh;
+        height: 90vh;
+        font-weight:1.2em;
+
+    }
+}
+
+@media screen
+
+and (-webkit-min-device-pixel-ratio: 0)
+{
+    .relative{
+        position:relative;
+        top:0px;
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+
+    .absolute{
+
+        max-height:700px; overflow-y: scroll;
+
+        z-index:100;
+        position:absolute;
+        top:12px;
+        float:right;
+        color:white;
+        margin-left:360px;
+        opacity: 0.9;
+
+
+    }
+}
+/* For iphone 6+ */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    .relative{
+        position:relative;
+        top:0px;
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+
+    .absolute{
+
+        max-height:700px; overflow-y: scroll;
+
+        z-index:100;
+        position:absolute;
+        top:12px;
+        float:right;
+        color:white;
+        margin-left:360px;
+        opacity: 0.9;
+
+
+    }
+
+}
+@media screen
+
+and (min-device-width:480px)
+{
+    .relative{
+        position:relative;
+        top:0px;
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+
+    .absolute{
+
+        max-height:700px; overflow-y: scroll;
+
+        z-index:100;
+        position:absolute;
+        top:12px;
+        float:right;
+        color:white;
+        margin-left:360px;
+        opacity: 0.9;
+
+
+    }
+}
+
+/* For Tablet such as kindle and ipad */
+@media only screen
+and (min-device-width: 568px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1),
+handheld and (orientation: landscape) {
+
+    .relative{
+        position:relative;
+        top:0px;
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+
+    .absolute{
+
+        max-height:700px; overflow-y: scroll;
+
+        z-index:100;
+        position:absolute;
+        top:12px;
+        float:right;
+        color:white;
+        margin-left:360px;
+        opacity: 0.9;
+
+
+    }
+}
+
+
+
+
+
+/* Second ELEMENT style for information */
+
+#colorstrip4,.row-centered1 {
+    text-align:center;
+    max-height: calc(100vh - 10px); overflow-y: auto;
+    margin: auto 0% 5%;
+    width:100%;
+    padding-top:22px;
+    background-color: #f0f0f0;
+    margin:0 auto 0%;
+
+
+}
+.col-centered1{
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+
+}
+
+.col-max1 {
+    /* custom max width */
+    max-width:100%;
+}
+
+
+/* Footer Styles */
+.panel-footer{
+    margin: 0 auto; width: 99%;
+
+    background-color: darkmagenta;
+    margin-top: 14px;
+    font-size:1.2em;
+}
+
+span.glyphicon-ok-sign {
+    font-size: 0.6em;
+}
+
+
+
+/*Main body footer*/
+
+footer{
+    background-color: firebrick;
+}
+
