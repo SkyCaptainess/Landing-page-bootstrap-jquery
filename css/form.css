@@ -1,0 +1,43 @@
+
+/* FORM STYLING */
+#formContact {
+    border-top:#F0F0F0 2px solid;
+    background:#f9f9f9;
+    padding:22px;
+}
+
+#frmContact div{
+    margin-bottom: 35px;
+}
+#frmContact div label{
+    margin-left: 1px
+}
+
+
+.btn{
+    background-color:firebrick;
+    padding:10px 25px;
+    color:#FFF;
+    border:#F0F0F0 1px solid;
+    border-radius:4px;
+    margin-bottom: -12px;
+    margin-left:-36px;
+    font-size:1.1em;
+
+}
+.btn:hover{
+    color:yellow;
+}
+.control-label{
+    display: inline-block;
+    color:#333;
+    font-weight: bold;
+    font-size:1.2em;
+    padding-left:22px;
+    padding-bottom:12px;
+
+}
+input:focus {
+    background-color: #FFFFFF;
+}
+
